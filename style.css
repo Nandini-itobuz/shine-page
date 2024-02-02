@@ -126,8 +126,9 @@ table td {
   outline: none;
 }
 
-.shine-events > .col > .card {
-  box-shadow: 34px 50px -17px rgba(2, 22, 5, 0.5);
+.shine-item {
+  box-shadow: 18rem 18rem -17px rgba(2, 22, 5, 0.5);
+  cursor: pointer;
 }
 
 @media (min-width: 552px) {

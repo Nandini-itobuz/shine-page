@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Serif:opsz,wght@8..144,600&display=swap");
 
-$nav-hover-effect:linear-gradient(
+$nav-hover-effect: linear-gradient(
   to right,
   rgba(192, 48, 79, 1),
   rgba(192, 48, 79, 1) 70%,
@@ -79,7 +79,7 @@ $nav-hover-effect:linear-gradient(
 
 .ministries {
   .ministries-bg {
-    background-color: #ffe6e0 ;
+    background-color: #ffe6e0;
   }
   .ministries-border {
     border-radius: 2rem 2rem 2rem 0rem;
@@ -143,8 +143,12 @@ table {
   outline: none;
 }
 
-.shine-events > .col > .card{
-  box-shadow:  34px 50px -17px rgba(2, 22, 5, 0.5);
+.shine-item{
+  box-shadow: 18rem 18rem -17px rgba(2, 22, 5, 0.5);
+  cursor: pointer;
+}
+.shine-events > .col > .card {
+  
 }
 
 @media (min-width: 552px) {
