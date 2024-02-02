@@ -9,15 +9,6 @@
   font-family: Roboto serif;
 }
 
-.ministries-heading {
-  font-size: 30px;
-  width: 100%;
-}
-
-.nav-hr {
-  gap: 18% !important;
-}
-
 .padding-body {
   padding-left: 10% !important;
   padding-right: 10% !important;
@@ -35,6 +26,33 @@
   font-size: 12px;
 }
 
+.pink-background {
+  background-color: #c0304f;
+}
+
+.cursour-class {
+  cursor: pointer;
+}
+
+/*nav-bar*/
+.nav-list:hover {
+  border-bottom: 3px solid;
+  -o-border-image: linear-gradient(to right, rgb(192, 48, 79), rgb(192, 48, 79) 70%, white 70%, white 80%, rgb(192, 48, 79) 80%, rgb(192, 48, 79));
+     border-image: linear-gradient(to right, rgb(192, 48, 79), rgb(192, 48, 79) 70%, white 70%, white 80%, rgb(192, 48, 79) 80%, rgb(192, 48, 79));
+  border-image-slice: 1;
+  cursor: pointer;
+}
+
+.dup-logo {
+  position: absolute;
+  top: 2%;
+  right: 15%;
+}
+
+.nav-hr {
+  gap: 19%;
+}
+
 .rose {
   right: -4.5%;
   bottom: -30%;
@@ -45,8 +63,9 @@
   top: 160%;
 }
 
+/*ministries*/
 .ministries .ministries-bg {
-  background-color: #ffe6e0 !important;
+  background-color: #ffe6e0;
 }
 .ministries .ministries-border {
   border-radius: 2rem 2rem 2rem 0rem;
@@ -60,6 +79,20 @@
   bottom: 6%;
 }
 
+.ministries-heading {
+  font-size: 30px;
+  width: 100%;
+}
+
+/*page-control*/
+.page-control {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+}
+
+/*footer*/
 .footer {
   background: url("images/footer/footer.png");
   width: 100vw;
@@ -78,39 +111,10 @@ table td {
   padding: 0.5rem 1rem 0.5rem 0rem;
 }
 
-.nav-list:hover {
-  border-bottom: 3px solid;
-  -o-border-image: linear-gradient(to right, rgb(192, 48, 79), rgb(192, 48, 79) 70%, white 70%, white 80%, rgb(192, 48, 79) 80%, rgb(192, 48, 79));
-     border-image: linear-gradient(to right, rgb(192, 48, 79), rgb(192, 48, 79) 70%, white 70%, white 80%, rgb(192, 48, 79) 80%, rgb(192, 48, 79));
-  border-image-slice: 1;
-  cursor: pointer;
-}
-
-.pink-background {
-  background-color: #c0304f;
-}
-
-.page-control {
-  height: 40px;
-  width: 40px;
-  border-radius: 5px;
-  border: 1px solid #dddddd;
-}
-
 .footer-statue {
   top: -63%;
   right: 1%;
   width: 20%;
-}
-
-.cursour-class {
-  cursor: pointer;
-}
-
-.dup-logo {
-  position: absolute;
-  top: 2%;
-  right: 15%;
 }
 
 .dup-logo {
@@ -120,6 +124,10 @@ table td {
 .input-bg {
   background-color: #626366;
   outline: none;
+}
+
+.shine-events > .col > .card {
+  box-shadow: 34px 50px -17px rgba(2, 22, 5, 0.5);
 }
 
 @media (min-width: 552px) {
