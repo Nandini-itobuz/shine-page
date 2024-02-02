@@ -43,7 +43,7 @@
   cursor: pointer;
 }
 
-.dup-logo {
+.nav-second-logo {
   position: absolute;
   top: 2%;
   right: 15%;
@@ -117,7 +117,7 @@ table td {
   width: 20%;
 }
 
-.dup-logo {
+.nav-second-logo {
   width: 36%;
 }
 
@@ -131,7 +131,7 @@ table td {
 }
 
 @media (min-width: 552px) {
-  .dup-logo {
+  .nav-second-logo {
     top: 1%;
     width: 26%;
   }
@@ -141,7 +141,7 @@ table td {
     width: 75%;
     font-size: 45px;
   }
-  .dup-logo {
+  .nav-second-logo {
     width: 20%;
   }
   .grey-text {

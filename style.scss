@@ -55,7 +55,7 @@ $nav-hover-effect:linear-gradient(
   }
 }
 
-.dup-logo {
+.nav-second-logo {
   position: absolute;
   top: 2%;
   right: 15%;
@@ -134,7 +134,7 @@ table {
   width: 20%;
 }
 
-.dup-logo {
+.nav-second-logo {
   width: 36%;
 }
 
@@ -148,7 +148,7 @@ table {
 }
 
 @media (min-width: 552px) {
-  .dup-logo {
+  .nav-second-logo {
     top: 1%;
     width: 26%;
   }
@@ -160,7 +160,7 @@ table {
     font-size: 45px;
   }
 
-  .dup-logo {
+  .nav-second-logo {
     width: 20%;
   }
 
